@@ -7,10 +7,30 @@
     <title>My link tree</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+
+    <!--Favicon & meta-->
+    <link rel="icon" href="img/Einstein.png" type="image/png">
+    <meta name="description" content="Un resumen de todo mi trabajo como develop">
+    <meta name="author" content="Matias Araujo m.araujoge@gmail.com">
+
+    <!--Facebook(og:'Open Graff')-->
+    <meta property="og:tittle" content="Link tree de Matias.flac">
+    <meta property="og:description" content="Acá podes encontrar un resumen de todo mi trabajo">
+    <meta property="og:image" content="img/foto.jpg">
+    <meta property="og:type" content="LinkTree">
+    <meta property="og:url" content="https://linksflac.github.io/">
+
+    <!--twitter-->
+    <meta property="twitter:tittle" content="Link tree de Matias.flac">
+    <meta property="twitter:description" content="Acá podes encontrar un resumen de todo mi trabajo">
+    <meta property="twitter:image" content="img/foto.jpg">
+    <meta property="twitter:type" content="LinkTree">
+    <meta property="twitter:url" content="https://linksflac.github.io/">
 </head>
+
 <body>
     <header>
-            <img src="img/foto.jpg" alt="" class="perfil">
+            <img src="img/foto.png" alt="" class="perfil">
             <p>@matias.flac</p>        
         <nav>
             <a href="https://www.instagram.com/matias.flac/"><img src="img/insta.png" alt="icono instagram" class="icon"></a>
@@ -29,9 +49,14 @@
             <li class="btn"> <a href="">Lululu</a> </li>
         </ul>
     </section>
+    <!--No estoy seguro de que el microformato haya quedado bien, probablemente no... tampoco estoy seguro de su funcion dentro de la pagina y espero que expliquen eso en la correccion del miercoles-->
     <footer>
-        <div class="hr"></div>
-        <p>Copy 2023 ©Matias.flac </p>
+        <div class="hr" itemscope itemtype="https://schema.org/Organization">
+            <p><span itemprop="creator">©MatiasAraujo 2023</span></p>
+            <p><span itemprop="address">Wiebestrasse 39, Berlin</span></p>
+            <p><span itemprop="telephone">+491784609047</span></p>
+        </div>
+        
     </footer>
 </body>
 </html>
