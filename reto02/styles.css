@@ -188,6 +188,10 @@ footer{
     bottom: 0;
     width: 100%;
 }
+footer hr{
+    margin-top: 0px;
+    color: #70757a;
+}
 .footerCon {
     margin-top: 33px;
     width: 100%;
@@ -220,4 +224,8 @@ footer{
 }
 .footerList a{
     padding-left: 8px;
+    padding-bottom: 0px;
+}
+.footerList a:hover{
+    text-decoration: underline;
 }
