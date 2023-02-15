@@ -215,3 +215,9 @@ footer{
     display: block;
 }
 
+.footerList {
+    list-style: none;
+}
+.footerList a{
+    padding-left: 8px;
+}
